@@ -48,3 +48,17 @@ design.addEventListener('click', btnrotate)
 function btnrotate() {
   design.classList.toggle('btnrotate')
 }
+
+// &
+let and = document.querySelector('a:nth-of-type(3)')
+
+and.addEventListener('mouseover', grow)
+and.addEventListener('mouseleave', shrink)
+
+function grow() {
+  and.classList.toggle('grow')
+}
+
+function shrink(){
+  and.classList.remove('grow')
+}

@@ -90,3 +90,8 @@ a:nth-of-type(12) {
 .btnrotate {
   transform: rotate(180deg);
 }
+
+/* & */
+.grow {
+  scale: 200%;
+}
