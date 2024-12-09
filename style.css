@@ -100,3 +100,14 @@ a:nth-of-type(12) {
 .blend {
   mix-blend-mode: difference;
 }
+
+/* Sprint5 */
+.moveup {
+  transform: translateY(10em);
+}
+
+/* fix */
+.spin {
+  transform: rotate(3600deg);
+  transition: 5s;
+}

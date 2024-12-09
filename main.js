@@ -53,7 +53,7 @@ function btnrotate() {
 let and = document.querySelector('a:nth-of-type(3)')
 
 and.addEventListener('mouseover', grow)
-and.addEventListener('mouseleavde', shrink)
+and.addEventListener('mouseleave', shrink)
 
 function grow() {
   and.classList.add('grow')
@@ -72,4 +72,11 @@ function blend() {
 }
 function unblend() {
   development.classList.remove('blend')
+}
+
+// Sprint5
+let sprint = document.querySelector('a:nth-of-type(5)')
+sprint.addEventListener('click', moveup)
+function moveup() {
+  sprint.classList.toggle('moveup')
 }
