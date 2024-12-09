@@ -95,3 +95,8 @@ a:nth-of-type(12) {
 .grow {
   scale: 200%;
 }
+
+/* Development */
+.blend {
+  mix-blend-mode: difference;
+}

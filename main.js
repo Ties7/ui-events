@@ -53,13 +53,23 @@ function btnrotate() {
 let and = document.querySelector('a:nth-of-type(3)')
 
 and.addEventListener('mouseover', grow)
-and.addEventListener('mouseleave', shrink)
+and.addEventListener('mouseleavde', shrink)
 
 function grow() {
-  and.classList.toggle('grow')
+  and.classList.add('grow')
 }
 
 function shrink(){
   and.classList.remove('grow')
 }
 
+// Development
+let development = document.querySelector('a:nth-of-type(4)')
+development.addEventListener('mouseover', blend)
+development.addEventListener('mouseleave', unblend)
+function blend() {
+  development.classList.toggle('blend')
+}
+function unblend() {
+  development.classList.remove('blend')
+}
