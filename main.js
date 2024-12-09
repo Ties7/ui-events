@@ -80,3 +80,10 @@ sprint.addEventListener('click', moveup)
 function moveup() {
   sprint.classList.toggle('moveup')
 }
+
+// Fix
+let fix = document.querySelector('a:nth-of-type(6)')
+fix.addEventListener('click', spin)
+function spin() {
+  fix.classList.toggle('spin')
+}
