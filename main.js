@@ -33,3 +33,11 @@ interaction.addEventListener('animationend', jumpHandler)
 
 // Stap 3: (Callback functie met) classList (.toggle(), .add(), etc.)
 // bibberLink.classList.toggle...
+
+
+// Frontend
+let bgcolor = document.querySelector('a:nth-of-type(1)')
+bgcolor.addEventListener('click', bgcolorchange)
+function bgcolorchange() {
+  bgcolor.classList.toggle('bgcolor')
+}

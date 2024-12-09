@@ -81,3 +81,10 @@ a:nth-of-type(12) {
 
 
 /* Hieronder komen jouw animaties */
+a:nth-of-type(12) {
+
+}
+
+.bgcolor {
+  background-color: blue;
+}
