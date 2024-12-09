@@ -81,10 +81,12 @@ a:nth-of-type(12) {
 
 
 /* Hieronder komen jouw animaties */
-a:nth-of-type(12) {
-
-}
-
+/* Frontend */
 .bgcolor {
   background-color: blue;
+}
+
+/* design */
+.btnrotate {
+  transform: rotate(180deg);
 }

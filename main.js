@@ -41,3 +41,10 @@ bgcolor.addEventListener('click', bgcolorchange)
 function bgcolorchange() {
   bgcolor.classList.toggle('bgcolor')
 }
+
+// Design
+let design = document.querySelector('a:nth-of-type(2)')
+design.addEventListener('click', btnrotate)
+function btnrotate() {
+  design.classList.toggle('btnrotate')
+}
